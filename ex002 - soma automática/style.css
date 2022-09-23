@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+    color: whitesmoke;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.473);
+    font: normal 15pt arial;
+
+    position: absolute;
+     left: 50%;
+     top: 40%;
+     transform: translate(-50%, -50%);
+}
+
+div#res {
+    font: normal 18pt arial;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+
+
+
+
