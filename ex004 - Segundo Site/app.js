@@ -1,7 +1,7 @@
 function verificar() {
   let data = new Date();
   let ano = data.getFullYear();
-  let fano = document.getElementById('ano');
+  let fano = document.getElementById('txtano');
   let res = document.getElementById('res');
 
   if (fano.value == 0 || fano.value > ano) {
@@ -46,11 +46,20 @@ function verificar() {
       }
     }
 
-    res.innerHTML = `Detectamos ${gênero} com ${idade} anos`
+    
+    
+
+    res.innerHTML = `<p> Detectamos ${gênero} com ${idade} anos. </p>`
     res.appendChild(img);
 
-    
+
 
     
   }
+}
+
+function reiniciar() {
+  let res = document.getElementById('res')
+  res.innerHTML = '<p>Preencha os dados acima para ver o resultado.</p>'
+  document.body.style.backgroundColor = '#3E84D9'
 }
