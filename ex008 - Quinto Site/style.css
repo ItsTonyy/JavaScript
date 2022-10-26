@@ -1,0 +1,139 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    background-color: rgb(8, 66, 138);
+    text-align: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.651);
+    font-size: 16pt;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.651);
+    text-align: center;
+    font-size: 16pt;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 750px;
+    margin: auto;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.911);
+    font-weight: 500;
+    font-size: 15pt;
+}
+
+select {
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13pt;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+#number {
+    font-size: 13pt;
+    width: 150px;
+    height: 25px;
+    border-color: black;
+    border-radius: 4px;
+}
+
+
+p {
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+#res {
+  margin: 15px;
+}
+
+
+
+
+
+
+/* ------------- BOTÃO ------------- */
+
+.button {
+    font-size: 14pt;
+    color: #fff;
+    background-color: rgb(13, 97, 199);
+    box-shadow: inset 0 -6.5px 0 0 rgba(0, 0, 0, 0.301);
+    transition: 0.1s;
+    text-shadow: 0px px rgba(0, 0, 0, 0.17);
+    padding: 7px 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  .button:hover {
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.17);
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.17);
+  }
+  
+  .button:active {
+    box-shadow: inset 0 0px 0 0 rgba(0, 0, 0, 0.17);
+    text-shadow: 0px 0px rgba(0, 0, 0, 0.17);
+  }
+
+#button1 {
+    font-size: 14pt;
+    color: #fff;
+    background-color: rgb(13, 97, 199);
+    box-shadow: inset 0 -6.5px 0 0 rgba(0, 0, 0, 0.301);
+    transition: 0.1s;
+    text-shadow: 0px px rgba(0, 0, 0, 0.17);
+    padding: 7px 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 6px;
+  }
+  
+  #button1:hover {
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.17);
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.17);
+  }
+  
+  #button1:active {
+    box-shadow: inset 0 0px 0 0 rgba(0, 0, 0, 0.17);
+    text-shadow: 0px 0px rgba(0, 0, 0, 0.17);
+  }
+
+  #button2 {
+    font-size: 14pt;
+    color: #fff;
+    background-color: rgb(13, 97, 199);
+    box-shadow: inset 0 -6.5px 0 0 rgba(0, 0, 0, 0.301);
+    transition: 0.1s;
+    text-shadow: 0px px rgba(0, 0, 0, 0.17);
+    padding: 7px 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+  
+  #button2:hover {
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.17);
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.17);
+  }
+  
+  #button2:active {
+    box-shadow: inset 0 0px 0 0 rgba(0, 0, 0, 0.17);
+    text-shadow: 0px 0px rgba(0, 0, 0, 0.17);
+  }
+
