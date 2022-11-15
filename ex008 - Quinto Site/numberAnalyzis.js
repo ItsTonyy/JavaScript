@@ -19,6 +19,9 @@ function adicionar() {
     let item = document.createElement('option');
     item.text = `Valor ${lastElement} adicionado.`;
     tab.appendChild(item);
+
+    input.value = ''
+    input.focus();
   }
 }
 
