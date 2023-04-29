@@ -1,0 +1,1 @@
+export { myFunction as function1, myVariable as variable };
